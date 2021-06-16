@@ -112,6 +112,7 @@
   border-color: transparent white transparent transparent;
 }
 
+
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
@@ -302,6 +303,7 @@
 
 html,
 body {
+    overflow-x: hidden;
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
